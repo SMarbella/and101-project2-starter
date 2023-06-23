@@ -4,7 +4,7 @@
 
 Submitted by: **Stephanie Marbella**
 
-Time spent: **6** hours spent in total
+Time spent: **8** hours spent in total
 
 ## Summary
 
@@ -31,9 +31,9 @@ The following STRETCH features are implemented:
 
 The following EXTRA features are implemented:
 
-- [ ] List anything else that you added to improve the app!
+- [x] List anything else that you added to improve the app!
 - [ ] Modify interface to add more visual details
-- [ ] Add the name of today's day, month name, and year to the Current Day button
+- [x] Add the name of today's day, month name, and year to the Current Day button
 - [ ] Randomize favorite number each time
 - [ ] Make print list print random lists of words
 
