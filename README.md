@@ -4,7 +4,7 @@
 
 Submitted by: **Stephanie Marbella**
 
-Time spent: **2** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Summary
 
