@@ -9,10 +9,8 @@ import java.util.*
 class CurrentDayActivity : AppCompatActivity() {
 
     private lateinit var currentTimeText: TextView
-    private lateinit var currentDayText: TextView
     private lateinit var currentDayWeekText: TextView
-    private lateinit var currentMonthText: TextView
-    private lateinit var currentYearText: TextView
+    private lateinit var currentDateText: TextView
     private val cal: Calendar = Calendar.getInstance()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,17 +19,11 @@ class CurrentDayActivity : AppCompatActivity() {
         currentTimeText = findViewById(R.id.current_time_text)
         currentTimeText.text = getCurrentTime()
 
-        currentDayText = findViewById(R.id.current_day_text)
-        currentDayText.text = getDayOfMonth().toString()
-
         currentDayWeekText = findViewById(R.id.current_day_week_text)
         currentDayWeekText.text = getDayOfWeek()
 
-        currentMonthText = findViewById(R.id.current_month_text)
-        currentMonthText.text = getCurrentMonth()
-
-        currentYearText = findViewById(R.id.current_year_text)
-        currentYearText.text = getCurrentYear().toString()
+        currentDateText = findViewById(R.id.current_date_text)
+        currentDateText.text = getFormattedDate()
     }
 
     private fun getDayOfMonth(): Int {
@@ -48,7 +40,7 @@ class CurrentDayActivity : AppCompatActivity() {
             "Friday",
             "Saturday")
         val day = cal.get(Calendar.DAY_OF_WEEK)
-        return week[day - 1]
+        return "Today is\n${week[day - 1]}"
     }
 
     private fun getCurrentMonth(): String {
@@ -73,9 +65,40 @@ class CurrentDayActivity : AppCompatActivity() {
         return year
     }
 
+    private fun getFormattedDate(): String {
+        val day = getDayOfMonth()
+        val month = getCurrentMonth()
+        val year = getCurrentYear()
+        return "$month $day, $year"
+    }
+
     private fun getCurrentTime(): String {
+        // 24-hour clock format
         val hour = cal.get(Calendar.HOUR_OF_DAY)
         val minute = cal.get(Calendar.MINUTE)
-        return "${hour}:${minute}"
+        var correctedHour = hour.toString()
+        var correctedMinute = minute.toString()
+        if (hour < 10) {
+            correctedHour = "0$hour"
+        }
+        if (minute < 10) {
+            correctedMinute = "0$minute"
+        }
+
+        // 12-hour clock format
+        val amPmList = listOf("AM", "PM")
+
+        val amPmHour = cal.get(Calendar.HOUR)
+        val amPm = cal.get(Calendar.AM_PM)
+
+        val morningOrAfternoon = amPmList[amPm]
+        return """.::Military time::.
+            |${correctedHour}${correctedMinute}
+            |
+            |.::24-hour::.
+            |${correctedHour}:${correctedMinute}
+            |
+            |.::12-hour::.
+            |${amPmHour}:${correctedMinute} ${morningOrAfternoon}""".trimMargin()
     }
 }

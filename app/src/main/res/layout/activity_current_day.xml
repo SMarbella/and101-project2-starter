@@ -6,11 +6,42 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <ImageView
+        android:id="@+id/current_day_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/currentdatebackground" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="368dp"
+        android:layout_height="682dp"
+        android:layout_margin="@dimen/cardview_default_radius"
+        android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+        android:background="#772C241A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="@+id/current_day_background"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.489">
+
+    </FrameLayout>
+
     <TextView
         android:id="@+id/current_time_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="32sp"
         app:layout_constraintBottom_toTopOf="@+id/current_day_week_text"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,55 +52,35 @@
         tools:text="12:00" />
 
     <TextView
-        android:id="@+id/current_day_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:textColor="@color/black"
-        android:textSize="32sp"
-        app:layout_constraintBottom_toTopOf="@+id/current_year_text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:text="20" />
-
-    <TextView
         android:id="@+id/current_day_week_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:textColor="@color/black"
-        android:textSize="32sp"
-        app:layout_constraintBottom_toTopOf="@+id/current_month_text"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/current_date_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         tools:text="Monday" />
 
     <TextView
-        android:id="@+id/current_month_text"
+        android:id="@+id/current_date_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:textColor="@color/black"
-        android:textSize="32sp"
-        app:layout_constraintBottom_toTopOf="@+id/current_day_text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:text="January" />
-
-    <TextView
-        android:id="@+id/current_year_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="160dp"
-        android:textColor="@color/black"
-        android:textSize="32sp"
+        android:layout_marginBottom="136dp"
+        android:fontFamily="cursive"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        tools:text="2023" />
+        tools:text="January 20, 2023" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
