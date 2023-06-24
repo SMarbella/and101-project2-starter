@@ -1,7 +1,10 @@
 <resources>
-    <string name="app_name">Android Kotlin Debugging</string>
+    <string name="app_name">Kotlin Widgets</string>
 
-    <string name="hello_world">Hello World</string>
+    <string name="hello_world">All aboard!</string>
+    <string name="greeting_hint">Name your locomotive!</string>
+    <string name="ok_text">OK</string>
+
     <string name="sum_of_two_numbers">2 + 2</string>
     <string name="current_day_text">Current Day</string>
     <string name="random_color_text">Random Color</string>
