@@ -9,12 +9,17 @@ class PrintListActivity : AppCompatActivity() {
 
     private val wordList: TextView get() = findViewById(R.id.word_list)
     private var words = listOf(
-        "this",
-        "is",
-        "your",
-        "standard",
-        "immutable",
-        "list"
+        "Information Desk",
+        "Baggage/Freight Services",
+        "Lost Property Office",
+        "Station Master",
+        "Ticket Office",
+        "Shops/Restaurants",
+        "Arrivals/Departures Boards",
+        "Railway",
+        "Train Conductor",
+        "Trains",
+        "Railroad Crossing Signs"
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {

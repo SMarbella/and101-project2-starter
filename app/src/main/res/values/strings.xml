@@ -9,7 +9,10 @@
     <string name="sum_of_two_numbers">2 + 2</string>
     <string name="current_day_text">Current Day</string>
     <string name="random_color_text">Random Color</string>
-    <string name="print_list_text">Print List</string>
+
+    <string name="print_list_text">Train Station Amenities</string>
+    <string name="print_list_description">You can find these at a train station</string>
+
     <string name="favorite_number_text">Favorite Number</string>
     <string name="click_anywhere">Click anywhere!</string>
 </resources>

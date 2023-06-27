@@ -70,7 +70,7 @@
         android:layout_width="76dp"
         android:layout_height="73dp"
         android:layout_marginEnd="5dp"
-        android:fontFamily="cursive"
+        android:fontFamily="serif-monospace"
         android:onClick="nameTrain"
         android:text="@string/ok_text"
         android:textSize="20sp"
