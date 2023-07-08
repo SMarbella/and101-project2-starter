@@ -35,7 +35,8 @@ The following EXTRA features are implemented:
 - [ ] Modify interface to add more visual details
 - [x] Add the name of today's day, month name, and year to the Current Day button
 - [ ] Randomize favorite number each time
-- [ ] Make print list print random lists of words
+- [x] Make Hello World page print random train names and allow users to name their vehicle
+- [x] Make train color change whenever the user taps it
 
 ## Video Demo
 
