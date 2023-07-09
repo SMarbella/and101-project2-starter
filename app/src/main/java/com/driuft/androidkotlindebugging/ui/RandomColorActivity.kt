@@ -20,16 +20,15 @@ class RandomColorActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_random_color)
-
+        // Changes color of the head of the train.
         trainHeadImage = findViewById(R.id.train_head)
-        // trainHeadImage.setColorFilter(getRandomColor())
-        //trainHeadImage.setOnClickListener { it.setColor(getRandomColor()) }
-        // rootView.setOnClickListener { it.setBackgroundColor(getRandomColor()) }
-
         trainHeadImage.setOnClickListener { trainHeadImage.setColorFilter(getRandomColor()) }
 
+        // Changes color of the car of the train.
         trainSectionImage = findViewById(R.id.train_section)
         trainSectionImage.setOnClickListener { trainSectionImage.setColorFilter(getRandomColor()) }
+
+        // Changes color of the caboose.
         trainSection2Image = findViewById(R.id.train_section2)
         trainSection2Image.setOnClickListener { trainSection2Image.setColorFilter(getRandomColor()) }
     }

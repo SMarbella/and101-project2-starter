@@ -13,7 +13,7 @@ class FavoriteNumber : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_favorite_number)
 
-        val number: Int? = null
-        favoriteNumber.text = "$number"
+        val number: Int? = (0..9999).random()
+        favoriteNumber.text = "You are boarding shuttle $number!"
     }
 }

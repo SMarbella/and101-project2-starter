@@ -13,6 +13,6 @@
     <string name="print_list_text">Train Station Amenities</string>
     <string name="print_list_description">You can find these at a train station</string>
 
-    <string name="favorite_number_text">Favorite Number</string>
+    <string name="favorite_number_text">Shuttle Number</string>
     <string name="click_color">Tap on the train!</string>
 </resources>
