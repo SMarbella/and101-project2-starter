@@ -4,7 +4,7 @@
 
 Submitted by: **Stephanie Marbella**
 
-Time spent: **24** hours spent in total
+Time spent: **25** hours spent in total
 
 ## Summary
 
@@ -34,7 +34,7 @@ The following EXTRA features are implemented:
 - [x] List anything else that you added to improve the app!
 - [ ] Modify interface to add more visual details
 - [x] Add the name of today's day, month name, and year to the Current Day button
-- [ ] Randomize favorite number each time
+- [x] Randomize favorite number each time
 - [x] Make Hello World page print random train names and allow users to name their vehicle
 - [x] Make train color change whenever the user taps it
 
