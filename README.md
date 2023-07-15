@@ -43,7 +43,9 @@ The following REQUIRED features are completed:
 
 The following STRETCH features are implemented:
 
-- [x] TODO
+- [x] Added line graph on Num Sum page from real data
+- [x] Created digital artwork and designs for the app
+- [x] Make the app more interactive with the user
 
 The following EXTRA features are implemented:
 
