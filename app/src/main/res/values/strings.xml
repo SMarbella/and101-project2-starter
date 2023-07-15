@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Kotlin Widgets</string>
+    <string name="app_name">Kotlin Widgets Station</string>
 
     <string name="hello_world">Name Your Train</string>
     <string name="greeting_hint">Name your locomotive!</string>

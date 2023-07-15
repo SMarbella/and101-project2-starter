@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/numsumbackground" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/white_graph_background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
