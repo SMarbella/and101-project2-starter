@@ -14,17 +14,17 @@ Time spent: **49** hours spent in total
 
 **Each widget quickly reminds me of things found at the train station:**
 
-**Hello World is connected to a train conductor saying "all aboard" to gather passengers into the train. The "hello" element is found during the boarding event because passengers enter the train and spend time in it during the ride.**
+- **Hello World is connected to a train conductor saying "all aboard" to gather passengers into the train. The "hello" element is found during the boarding event because passengers enter the train and spend time in it during the ride.**
 
-**Number Sum is related to train speed statistics. Since Number Sum is math, it reminded me of statistics because both math and statistics are used to calculate entities.**
+- **Number Sum is related to train speed statistics. Since Number Sum is math, it reminded me of statistics because both math and statistics are used to calculate entities.**
 
-**Current Day's features and purpose is found on some clocks in train stations because they deal with the current moment in time.**
+- **Current Day's features and purpose is found on some clocks in train stations because they deal with the current moment in time.**
 
-**Random Color relates to the variety of colors included in a locomotive. It is an extremely common sight to see different freight colors on a train that passes by a railroad crossing sign. In some trains, each train car is a different color from one another.**
+- **Random Color relates to the variety of colors included in a locomotive. It is an extremely common sight to see different freight colors on a train that passes by a railroad crossing sign. In some trains, each train car is a different color from one another.**
 
-**Print List is a list of amenities found at the train station.**
+- **Print List is a list of amenities found at the train station.**
 
-**Favorite Number relates to the train numbers found on trains because, like people's favorite numbers, the numbers on trains are random.**
+- **Favorite Number relates to the train numbers found on trains because, like people's favorite numbers, the numbers on trains are random.**
 
 If I had to describe this project in three (3) emojis, they would be: **🔧🛠⚙**
 
