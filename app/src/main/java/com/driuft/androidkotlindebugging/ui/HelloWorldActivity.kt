@@ -23,7 +23,7 @@ class HelloWorldActivity : AppCompatActivity() {
             "Dinosaur Train", "New York City Subway", "Port Authority Trans-Hudson",
             "Staten Island Railway", "Acela Express", "Admiral", "Advance Commodore Vanderbilt",
             "Advance Denver Zephyr", "Advance Empire State Express", "Advance Florida Special",
-            "Advance Flyer", "Baltimore-Washington Night Express", "Baltimore Day Express",
+            "Advance Flyer", "Baltimore Washington Night Express", "Baltimore Day Express",
             "Berkshire Hills Express", "Boardwalk Flyer", "Boston Express", "Buffalo Train",
             "Albany Express", "Brazil and Mudlavia Express", "Butte Express", "Butte Special",
             "Brainerd and International Falls Express", "Atlantic Express", "Jacksonville Express",
