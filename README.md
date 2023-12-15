@@ -62,7 +62,23 @@ The following EXTRA features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+# Name Your Train
+![Image](https://github.com/SMarbella/and101-project2-starter/blob/main/Videos/Name%20Your%20Train.gif)
+
+# Train Speed Statistic
+![Image](https://github.com/SMarbella/and101-project2-starter/blob/main/Videos/Train%20Speed%20Statistic.gif)
+
+# Current Date, Day, and Time
+![Image](https://github.com/SMarbella/and101-project2-starter/blob/main/Videos/Current%20Date%20Day%20and%20Time.gif)
+
+# Generate Random Train Colors
+![Image](https://github.com/SMarbella/and101-project2-starter/blob/main/Videos/Generate%20Random%20Train%20Colors.gif)
+
+# Train Station Amenities
+![Image](https://github.com/SMarbella/and101-project2-starter/blob/main/Videos/Train%20Station%20Amenities.gif)
+
+# Random Shuttle Number
+![Image](https://github.com/SMarbella/and101-project2-starter/blob/main/Videos/Random%20Shuttle%20Number.gif)
 
 GIF created with **your chosen GIF tool**
 
