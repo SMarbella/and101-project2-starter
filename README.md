@@ -80,7 +80,7 @@ Here's a video / GIF that demos all of the app's implemented features:
 # Random Shuttle Number
 ![Image](https://github.com/SMarbella/and101-project2-starter/blob/main/Videos/Random%20Shuttle%20Number.gif)
 
-GIF created with **your chosen GIF tool**
+GIF created with **ScreenToGif**
 
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
